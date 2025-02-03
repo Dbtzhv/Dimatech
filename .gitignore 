@@ -1,0 +1,23 @@
+# Игнорировать .env
+.env
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Установки виртуального окружения
+venv/
+
+# Логи
+*.log
+
+# Миграции Alembic
+alembic.ini
+migrations/
+
+# Системные файлы
+.DS_Store
+.idea/
+
+# Пакеты для Poetry
+.poetry/
