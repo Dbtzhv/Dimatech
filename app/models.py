@@ -1,6 +1,8 @@
 from typing import Annotated
+
 from sqlalchemy import INTEGER, String, ForeignKey, DECIMAL
 from sqlalchemy.orm import Mapped, mapped_column, relationship
+
 from app.database import Base
 
 int_pk = Annotated[int, mapped_column(INTEGER, primary_key=True)]
